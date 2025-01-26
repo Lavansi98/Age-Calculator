@@ -87,22 +87,4 @@ body{
     .title h2 {
       font-size: 18px;
     }
-  
-    .calculate-box h3 {
-      font-size: 16px;
-    }
-  
-    .input-namebox input,
-    .calculate-box input[type="date"] {
-      font-size: 12px;
-    }
-  
-    .calculate-box button {
-      font-size: 12px;
-      padding: 6px 10px;
-    }
-  
-    #getname, #year, #thanks {
-      font-size: 12px;
-    }
-  }
+}

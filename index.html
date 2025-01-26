@@ -8,18 +8,23 @@
 </head>
 <body>
     <div class="container">
-        <input type="text"  id="username" placeholder="Enter your name" >
-        <input type="datetime-local"  id="dob">
-        <button id="submit">Calculate Age</button>
-        <h2 id="getname"></h2>
-        <p id="year"></p>
-        <p id="month"></p>
-        <p id="week"></p>
-        <p id="day"></p>
-        <p id="hour"></p>
-        <p id="min"></p>
-        <p id="sec"></p>
-        <h4 id="thanks"></h4>
+        <div class="title">
+            <h2>Age Calculator</h2>
+        </div>
+        <div class="input-namebox">
+            <input type="text"  id="username" placeholder="Enter your name" >
+        </div>
+        <div class="calculate-box">
+            <h5>Select Your Birthdate</h5>
+            <input type="date"  id="dob">
+            <button id="submit">Calculate Age</button>
+        </div>
+        <div>
+            <h2 id="getname"></h2>
+            <p id="year"></p>
+            <h4 id="thanks"></h4>
+        </div>
+        
     </div>
 
 
